@@ -146,16 +146,16 @@ HTML = """
     <form method="POST">
 
         <label>Blood Glucose</label>
-        <input type="number" name="glucose" required>
+        <input type="number" name="glucose" required placeholder="Contoh: 120 (mg/dL)">
 
         <label>Weight</label>
-        <input type="number" name="weight" required>
+        <input type="number" name="weight" required placeholder="Contoh: 170 (lbs)">
 
         <label>Waist</label>
-        <input type="number" name="waist" required>
+        <input type="number" name="waist" required placeholder="Contoh: 34 (inci)">
 
         <label>Hip</label>
-        <input type="number" name="hip" required>
+        <input type="number" name="hip" required placeholder="Contoh: 40 (inci)">
 
         <button type="submit">
             Predict Classification
