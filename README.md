@@ -60,14 +60,12 @@ Berdasarkan kadar HbA1c (`glyhb`) dalam dataset:
 klasifikasi_diabetes/
 ├── app.py                  # Flask backend — training, prediksi, API
 ├── diabetes_raw.csv        # Dataset (403 pasien, 18 kolom)
+├── README.md               # Dokumentasi proyek
 ├── static/
 │   ├── script.js           # Frontend JS — fetch API + SweetAlert2
 │   └── style.css           # Dark theme CSS
-├── templates/
-│   └── index.html          # Halaman utama form input
-├── hasil_klasifikasi_diabetes.csv  # Hasil prediksi pada data uji
-├── prediksi_data_baru.csv          # Riwayat prediksi data baru
-└── README.md
+└── templates/
+    └── index.html          # Halaman utama form input
 ```
 
 ---
